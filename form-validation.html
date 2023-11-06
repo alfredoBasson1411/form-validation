@@ -1,1 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-US"></html>
+<form>
+    <h1>Registration Form</h1>
+    <label for="userid">
+User Id:
+    </label>
+    <input required="text" type="text" id="userid" name="userid" minlength="5" maxlength="12"><br>
+    
+    <br>
 
+    <label for="password">
+Password:
+    </label>
+    <input required="text" type="text" id="password" name="password" min="7" max="12" inputmode="numeric"><br>
+<br>
+    <label for="Name">
+Name:
+    </label>
+    <input required="text" type="text" id="Name">
+    
+    <br>
+    <br>
+
+    <label for="Address">
+Address:
+    </label>
+       <input optional="text">
+       <br>
+       <br>
+
+       <label for="country">
+Country:
+        <select>
+        <option value="0" label="Select a country..."></option>
+        <option value="South Africa">South Africa</option>
+<option value="Algeria">Algeria</option>
+<option value="Russia">Russia</option>
+<option value="hungary">hungary</option>
+<option value="london">london</option>
+<option value="Pakistan">Pakistan</option>
+<option value="Belize">Belize</option>
+<option value="Benin">Benin</option>
+<option value="Bermuda">Bermuda</option>
+<option value="Bhutan">Bhutan</option>
+<option value="Bolivia">Bolivia</option>
+<option value="Bosnia and Herzegowina">Bosnia and Herzegowina</option>
+<option value="Botswana">Botswana</option></select>
+        <br>
+        <br>
+ </label>
+        <label for="ZIP code">
+Zip Code:
+        <input required type="number">     
+        </label>
+        <br>
+        <br>
+
+        <label for="Email">
+Email:
+            <input required inputmode="email" id="Email" name="Email">
+        </label>
+        <br>
+        <br>
+        <label for="Sex">
+Sex:    <input required type="radio" id="sex" name="male"> Male <input required type="radio" id="sex" name="female"> Female
+        </label>
+        <br>
+        <br>
+        <label for="Language">
+Language:
+            <input required type="checkbox" id="Language" name="Language">English<input required type="checkbox" id="language2" name="non english">Non English
+
+        </label>
+        <br>
+        <br>
+        <label for="About">
+        <label> 
+About:
+       <br>
+    <textarea name="About" id="About" cols="30" rows="5"></textarea></fieldset>
+
+    </label>
+    <br>
+        <button>Submit</button>
+</form>
